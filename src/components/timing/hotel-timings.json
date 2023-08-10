@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_timing_hotel_timings",
+  "info": {
+    "displayName": "HotelTimings"
+  },
+  "options": {},
+  "attributes": {
+    "Hours": {
+      "type": "string"
+    },
+    "Days": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "names",
+  "info": {
+    "singularName": "name",
+    "pluralName": "names",
+    "displayName": "category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "hotels": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::hotel.hotel",
+      "inversedBy": "categories"
+    }
+  }
+}
